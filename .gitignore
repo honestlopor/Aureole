@@ -1,1 +1,32 @@
+# Ignore compiled class files
+*.class
+
+# Ignore all JAR files
 *.jar
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+.metadata/
+
+# Build folders (Maven/Gradle style and Eclipse)
+bin/
+build/
+target/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Ignore Eclipse launch configurations
+*.launch
+
+# Ignore generated files
+*.war
+*.ear
+
+# Ignore other common OS files
+.DS_Store
+Thumbs.db
+
