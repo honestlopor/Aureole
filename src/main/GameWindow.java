@@ -3,6 +3,7 @@ package main;
 import java.awt.Color;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowFocusListener;
+import java.awt.image.BufferedImage;
 
 import javax.swing.JFrame;
 
@@ -10,17 +11,18 @@ import utilz.LoadSave;
 
 public class GameWindow {
 	private JFrame jframe;
+	private BufferedImage gameIcon;
 
 	public GameWindow(GamePanel gamePanel) {
 
 		jframe = new JFrame("Aureole");
-
 		jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		jframe.add(gamePanel);
 		jframe.setResizable(false);
 		jframe.pack();
 		jframe.setLocationRelativeTo(null);
 		jframe.setVisible(true);
+		
 		jframe.addWindowFocusListener(new WindowFocusListener() {
 			
 			@Override

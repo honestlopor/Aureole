@@ -176,7 +176,7 @@ public class LoadSave {
 	public static final String S_ROCK_1 = "smallrock.png";
 	public static final String BUSH_1 = "bush.png";
 	public static final String ELEPHANT = "EleCMU.png";
- 	
+	 	
 	public static BufferedImage GetSpriteAtlas(String fileName) {
 		BufferedImage img = null;
 		InputStream is = LoadSave.class.getResourceAsStream("/" + fileName);

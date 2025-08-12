@@ -147,7 +147,7 @@ public class Constants {
 			case SLIME:
 				return 20;
 			default:
-				return 500;
+				return 200;
 			}
 		}
 		
@@ -158,7 +158,7 @@ public class Constants {
 			case SLIME:
 				return 15;
 			default:
-				return 6;
+				return 12;
 			}
 		
 		}
